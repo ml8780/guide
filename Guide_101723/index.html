@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Language</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR&family=Noto+Sans+Tamil&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/IDMNYU/p5.js-speech@0.0.3/lib/p5.speech.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Listening to Wor(l)ds</h1>
+
+    <div class="top">
+        <p id="instruction">
+            Instructions:
+            <br>
+            <br>
+            1. You need a computer mouse first to experience this guide.
+            <br>
+            2. Left mouse click: speaks words from origin language
+            <br>
+            3. Middle mouse click or key 'h': speaks words from hybrid languages
+            <br>
+            4. Right mouse click: speaks meanings in English
+            <br>
+        </p>
+
+        <img id="mouse" src="https://pngimg.com/d/computer_mouse_PNG7677.png" alt="">
+    </div>
+
+    <div id="floating">
+        <div id="canvasForHTML"></div>
+        <div id="space"></div>
+        <img class="map" src="mapBW_3200x1800.jpg" alt="black and white map">
+
+        <!-- <img src="1600px_bwmap.jpg" alt="black and white map"> -->
+    </div>
+
+    <div id="info">
+        <h2 class="text">familiar sounds</h2>
+        <h2 class="text">objects near you</h2>
+        <h2 class="text">floating in space</h2>
+        <h2 id="scroll">Scroll down to see more informaiton about these hybrid words...</h2>
+        <img id="map2" src="Artboard 3.jpg" alt="map with information">
+        <img class="chart" src="infoChart@3x@3x.jpg" alt="information chart">
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
